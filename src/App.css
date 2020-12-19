@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+#nav-mobile > li > a{
+    color: black;
+    border: 20px green;
+}
+.card{
+    width: 30%;
+    min-width: 250px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.login-card{
+    width: 80%;
+    min-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 10% 10% 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+Profile page CSS
+*/
+
+.profile-head{
+    margin: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-pic{
+    align-items: center;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-pic img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50rem;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-info{
+    margin: 6em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageGallery{
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imageGallery img{
+    padding: 0.8%;
+    height: 20rem;
+    width: 25rem;
+}
+
+.Feed{
+    padding: 5rem;
+}
+
+.POST{
+    height: 50rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.POST img{
+    width: 80%;
+    height: 80%;
 }
